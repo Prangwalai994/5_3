@@ -12,7 +12,7 @@ namespace Refactioning_Towards5_3
     {
         public string ReadVideoTitle()
         {
-            var str = File.Read("video.txt");
+            var str = new FileReader().Read("video.txt");
             var video = JsonConvert.DeserializeObject<Video>(str);
             if (video == null)
                 return "Error parsing the video.";
