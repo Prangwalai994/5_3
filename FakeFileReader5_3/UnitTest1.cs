@@ -8,7 +8,7 @@ namespace FakeFileReader5_3.UnitTests
    {
         public string Read(string path)
         {
-            throw new System.NotImplementedException();
+            return "";
         }
    }
 }

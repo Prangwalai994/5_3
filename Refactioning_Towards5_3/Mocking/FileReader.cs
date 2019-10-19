@@ -10,7 +10,7 @@ namespace Refactioning_Towards5_3.Mocking
     {
         string Read(string path);
     }
-    public class FileReader:IFileReader
+    public class FileReader : IFileReader
     {
         public string Read(string path)
         {
